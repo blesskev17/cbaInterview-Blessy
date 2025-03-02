@@ -1,0 +1,104 @@
+Creation of Automation suite:
+
+1. Creation of a new Maven Project:
+	Project Name: CBAPetStoreAutomation (GroupId and ModuleId)
+	
+2. Adding required dependency in POM.xml
+
+<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<!---->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>5.5.1</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
+<!--json validation-->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>json-path</artifactId>
+    <version>5.5.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.json/json -->]
+<!---->
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20250107</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<!---->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.11.0</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.github.scribejava/scribejava-apis -->
+<!--required for OAuth 1/2 authentication-->
+<dependency>
+    <groupId>com.github.scribejava</groupId>
+    <artifactId>scribejava-apis</artifactId>
+    <version>8.3.3</version>
+    <scope>runtime</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
+<!---->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>json-schema-validator</artifactId>
+    <version>5.5.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+<!--random data generation-->
+<dependency>
+    <groupId>com.github.javafaker</groupId>
+    <artifactId>javafaker</artifactId>
+    <version>1.0.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<!--external report-->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<!--work with excel-->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.4.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<!--work with excel-->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.4.0</version>
+</dependency>
+
+
+
+3. Component to be created
+	test/java
+		endpoints
+			api endpoint
+		payload
+			pojo classes
+		test
+			testcasesA
+		utilities
+			excel report utils
+			reports
+			reusable code
+	resource
+		routes. properties
+		
+
+4. Design and Development
+
+4.a Create Routes - URL will be store here.
+
+4.b Create UserEndpoint Methods to send the request
