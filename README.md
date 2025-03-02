@@ -38,5 +38,3 @@ Furture Scope:
 2. Planning to get user infromation and testcase details in form of excel.
 3. Creation of testcase document from excel and automatically exceute the testcase based on the testcase mentioned in the excel.
 4. Assetion of all the fiedls provided in the REST api and Responses.
-
-Future Scope:
