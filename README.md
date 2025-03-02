@@ -28,10 +28,11 @@ There are multiple way to run this project:
 2. Runnning POM.xml directly on command promt using maven (https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 3. Running via jenkins. (https://www.jenkins.io/doc/tutorials/build-a-java-app-with-maven/)
 
-
+---------------------------------------
 Current State of the project:
-1. Only backlog 1 is completed remaining is pedning.
+1. Only backlog 1 is completed remaining is pending.
 
+---------------------------------------
 Furture Scope:
 1. Data Driven Testing --> Currently only 1 off testing is done. Negative testing, Bulk testing etc are pending.
 2. Planning to get user infromation and testcase details in form of excel.
